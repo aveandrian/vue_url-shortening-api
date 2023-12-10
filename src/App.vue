@@ -12,6 +12,21 @@ import {
 
 <template>
   <Navbar />
+  <section className="header-section">
+    <div className="header-description">
+      <h1 className="header-title">More than just shorter links</h1>
+      <p className="header-text">
+        Build your brand's recognition and get detailed insights on how your
+        links are performing.
+      </p>
+      <button className="get-started-btn ">Get Started</button>
+    </div>
+    <img
+      className="header-img"
+      src="/images/illustration-working.svg"
+      alt="Header Illustration"
+    />
+  </section>
   <section class="stats">
     <LinkShortener />
     <h1 class="stats-title">Advanced Statistics</h1>
